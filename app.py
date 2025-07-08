@@ -1,10 +1,17 @@
 import os
 import json
+import base64
 from flask import Flask, request, jsonify, send_from_directory, render_template
 from flask_cors import CORS
 import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud.firestore_v1 import SERVER_TIMESTAMP
+
+# 🔐 Railway base64 解碼 → 寫入 json 憑證
+firebase_b64 = os.environ.get("FIREBASE_ADMIN_BASE64")
+if firebase_b64:
+    with open("firebase_admin_sdk.json", "wb") as f:
+        f.write(base64.b64decode(firebase_b64))
 
 # 初始化 Flask App
 app = Flask(__name__, static_folder="static", template_folder="templates")
