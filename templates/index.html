@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>角色選擇 - Quizz App V1.3</title>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+    import { firebaseConfig } from "./static/js/firebase-config.js";
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    let uid = null;
+
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        uid = user.uid;
+        console.log("✅ 匿名登入成功，UID：", uid);
+        document.getElementById("start-button").disabled = false;
+      } else {
+        console.warn("❌ 尚未登入，嘗試執行...");
+        signInAnonymously(auth).catch((error) => {
+          console.error("登入失敗：", error);
+        });
+      }
+    });
+
+    window.submitChoice = function () {
+      const selected = document.querySelector(".character-card.selected");
+      if (!selected || !uid) {
+        alert("請選擇角色，並確認已登入 Firebase。");
+        return;
+      }
+
+      const avatar = selected.dataset.avatar;
+      let name = selected.dataset.name;
+
+      if (name === "custom") {
+        const input = document.getElementById("nickname").value.trim();
+        if (!input) {
+          alert("請輸入暱稱！");
+          return;
+        }
+        name = input;
+      }
+
+      // 存入 sessionStorage（非 localStorage）
+      sessionStorage.setItem("uid", uid);
+      sessionStorage.setItem("playerName", name);
+      sessionStorage.setItem("playerAvatar", avatar);
+
+      window.location.href = "/quiz";
+    };
+
+    window.selectCard = function (el) {
+      document.querySelectorAll(".character-card").forEach((c) => c.classList.remove("selected"));
+      el.classList.add("selected");
+
+      if (el.dataset.name === "custom") {
+        document.getElementById("nickname-container").style.display = "block";
+      } else {
+        document.getElementById("nickname-container").style.display = "none";
+      }
+    };
+  </script>
+  <style>
+    body { font-family: sans-serif; text-align: center; background-color: #f2f2f2; padding: 20px; }
+    h1 { margin-top: 20px; }
+    .character-card {
+      display: inline-block;
+      width: 180px;
+      margin: 10px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      padding: 10px;
+      cursor: pointer;
+    }
+    .character-card img {
+      width: 90px;
+      height: 90px;
+    }
+    .character-card.selected {
+      border: 3px solid #28a745;
+    }
+    #nickname-container {
+      margin: 20px;
+      display: none;
+    }
+    input { padding: 10px; font-size: 16px; }
+    button { padding: 12px 24px; font-size: 18px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>選擇角色開始挑戰</h1>
+  <div id="character-list">
+    <div class="character-card" data-name="Kris" data-avatar="avatars/avatar_032.svg" onclick="selectCard(this)">
+      <p>Kris</p>
+      <img src="static/avatars/avatar_032.svg" />
+    </div>
+    <div class="character-card" data-name="Romeo" data-avatar="avatars/avatar_038.svg" onclick="selectCard(this)">
+      <p>Romeo</p>
+      <img src="static/avatars/avatar_038.svg" />
+    </div>
+    <div class="character-card" data-name="Sofi" data-avatar="avatars/avatar_019.svg" onclick="selectCard(this)">
+      <p>Sofi</p>
+      <img src="static/avatars/avatar_019.svg" />
+    </div>
+    <div class="character-card" data-name="custom" data-avatar="avatars/avatar_041.svg" onclick="selectCard(this)">
+      <p>自訂</p>
+      <img src="static/avatars/avatar_041.svg" />
+    </div>
+  </div>
+
+  <div id="nickname-container">
+    <label for="nickname">輸入暱稱：</label><br />
+    <input type="text" id="nickname" placeholder="請輸入暱稱" />
+  </div>
+
+  <button id="start-button" onclick="submitChoice()" disabled>開始挑戰</button>
+</body>
+</html>

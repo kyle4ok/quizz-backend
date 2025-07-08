@@ -1,0 +1,18 @@
+{
+  "phase_1": {
+    "id": "phase_1",
+    "type": "choice",
+    "count": 30,
+    "distribution": {
+      "EC": 3,
+      "FS": 3,
+      "NC": 3,
+      "Other": 21
+    }
+  },
+  "phase_2": {
+    "id": "phase_2",
+    "type": "match",
+    "count": 20
+  }
+}

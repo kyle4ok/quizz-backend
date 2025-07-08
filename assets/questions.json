@@ -1,0 +1,902 @@
+[
+  {
+    "id": "Q001",
+    "category": "EC",
+    "image": "assets/images/台灣節能標章.png",
+    "answer": "台灣節能標章"
+  },
+  {
+    "id": "Q002",
+    "category": "EC",
+    "image": "assets/images/環境教育標章.png",
+    "answer": "環境教育標章"
+  },
+  {
+    "id": "Q003",
+    "category": "EC",
+    "image": "assets/images/台灣環保標章.png",
+    "answer": "台灣環保標章"
+  },
+  {
+    "id": "Q004",
+    "category": "EC",
+    "image": "assets/images/金級省水標章.png",
+    "answer": "金級省水標章"
+  },
+  {
+    "id": "Q005",
+    "category": "EC",
+    "image": "assets/images/資源回收標章.png",
+    "answer": "資源回收標章"
+  },
+  {
+    "id": "Q006",
+    "category": "EC",
+    "image": "assets/images/台灣環保標章2級.png",
+    "answer": "台灣環保標章2級"
+  },
+  {
+    "id": "Q007",
+    "category": "EC",
+    "image": "assets/images/國際無毒家園標章.png",
+    "answer": "國際無毒家園標章"
+  },
+  {
+    "id": "Q008",
+    "category": "EC",
+    "image": "assets/images/碳足跡標章.png",
+    "answer": "碳足跡標章"
+  },
+  {
+    "id": "Q009",
+    "category": "EC",
+    "image": "assets/images/綠建築標章.png",
+    "answer": "綠建築標章"
+  },
+  {
+    "id": "Q010",
+    "category": "FS",
+    "image": "assets/images/嬰兒配方食品認證標章.png",
+    "answer": "嬰兒配方食品認證標章"
+  },
+  {
+    "id": "Q011",
+    "category": "FS",
+    "image": "assets/images/健康食品認證標章.png",
+    "answer": "健康食品認證標章"
+  },
+  {
+    "id": "Q012",
+    "category": "FS",
+    "image": "assets/images/TQF台灣優良食品認證標章.png",
+    "answer": "TQF台灣優良食品認證標章"
+  },
+  {
+    "id": "Q013",
+    "category": "FS",
+    "image": "assets/images/鮮乳標章.png",
+    "answer": "鮮乳標章"
+  },
+  {
+    "id": "Q014",
+    "category": "FS",
+    "image": "assets/images/國際食品安全管理系統標章.png",
+    "answer": "國際食品安全管理系統標章"
+  },
+  {
+    "id": "Q015",
+    "category": "FS",
+    "image": "assets/images/台灣豬標章.png",
+    "answer": "台灣豬標章"
+  },
+  {
+    "id": "Q016",
+    "category": "FS",
+    "image": "assets/images/CAS台灣優良農產品標章.png",
+    "answer": "CAS台灣優良農產品標章"
+  },
+  {
+    "id": "Q017",
+    "category": "FS",
+    "image": "assets/images/HALAL清真認證.png",
+    "answer": "HALAL清真認證"
+  },
+  {
+    "id": "Q018",
+    "category": "FS",
+    "image": "assets/images/有機農產品標章.png",
+    "answer": "有機農產品標章"
+  },
+  {
+    "id": "Q019",
+    "category": "NC",
+    "image": "assets/images/港務局.png",
+    "answer": "港務局"
+  },
+  {
+    "id": "Q020",
+    "category": "NC",
+    "image": "assets/images/台灣高鐵.png",
+    "answer": "台灣高鐵"
+  },
+  {
+    "id": "Q021",
+    "category": "NC",
+    "image": "assets/images/台灣菸酒公司.png",
+    "answer": "台灣菸酒公司"
+  },
+  {
+    "id": "Q022",
+    "category": "NC",
+    "image": "assets/images/中華電信.png",
+    "answer": "中華電信"
+  },
+  {
+    "id": "Q023",
+    "category": "NC",
+    "image": "assets/images/台灣鐵路.png",
+    "answer": "台灣鐵路"
+  },
+  {
+    "id": "Q024",
+    "category": "NC",
+    "image": "assets/images/台灣中油.png",
+    "answer": "台灣中油"
+  },
+  {
+    "id": "Q025",
+    "category": "NC",
+    "image": "assets/images/台灣電力公司.png",
+    "answer": "台灣電力公司"
+  },
+  {
+    "id": "Q026",
+    "category": "NC",
+    "image": "assets/images/台灣自來水公司.png",
+    "answer": "台灣自來水公司"
+  },
+  {
+    "id": "Q027",
+    "category": "NC",
+    "image": "assets/images/中華郵政.png",
+    "answer": "中華郵政"
+  },
+  {
+    "id": "Q028",
+    "category": "AC",
+    "image": "assets/images/AC_014_推行嬰兒推車者優先.jpg",
+    "answer": "推行嬰兒推車者優先"
+  },
+  {
+    "id": "Q029",
+    "category": "AC",
+    "image": "assets/images/AC_016_傷者優先席.jpg",
+    "answer": "傷者優先席"
+  },
+  {
+    "id": "Q030",
+    "category": "AC",
+    "image": "assets/images/AC_004_友善導盲犬.jpg",
+    "answer": "友善導盲犬"
+  },
+  {
+    "id": "Q031",
+    "category": "AC",
+    "image": "assets/images/AC_017_內在障礙者優先席.jpg",
+    "answer": "內在障礙者優先席"
+  },
+  {
+    "id": "Q032",
+    "category": "AC",
+    "image": "assets/images/AC_001_無障礙、無障礙設施.jpg",
+    "answer": "無障礙、無障礙設施"
+  },
+  {
+    "id": "Q033",
+    "category": "AC",
+    "image": "assets/images/AC_015_年長者優先席.jpg",
+    "answer": "年長者優先席"
+  },
+  {
+    "id": "Q034",
+    "category": "AC",
+    "image": "assets/images/AC_018_攜帶幼童優先席.jpg",
+    "answer": "攜帶幼童優先席"
+  },
+  {
+    "id": "Q035",
+    "category": "AC",
+    "image": "assets/images/AC_019_孕婦優先席.jpg",
+    "answer": "孕婦優先席"
+  },
+  {
+    "id": "Q036",
+    "category": "AC",
+    "image": "assets/images/AC_012_攜帶幼童者優先.jpg",
+    "answer": "攜帶幼童者優先"
+  },
+  {
+    "id": "Q037",
+    "category": "BP",
+    "image": "assets/images/BP_001_保持安靜",
+    "answer": "保持安靜"
+  },
+  {
+    "id": "Q038",
+    "category": "BP",
+    "image": "assets/images/BP_017_量測體溫.jpg",
+    "answer": "量測體溫"
+  },
+  {
+    "id": "Q039",
+    "category": "BP",
+    "image": "assets/images/BP_022_遛狗請繫狗繩.jpg",
+    "answer": "遛狗請繫狗繩"
+  },
+  {
+    "id": "Q040",
+    "category": "BP",
+    "image": "assets/images/BP_012_攤開護照掃描.jpg",
+    "answer": "攤開護照掃描"
+  },
+  {
+    "id": "Q041",
+    "category": "BP",
+    "image": "assets/images/BP_020_須著救生衣、救生衣.jpg",
+    "answer": "須著救生衣、救生衣"
+  },
+  {
+    "id": "Q042",
+    "category": "BP",
+    "image": "assets/images/BP_009_監視錄影中.jpg",
+    "answer": "監視錄影中"
+  },
+  {
+    "id": "Q043",
+    "category": "BP",
+    "image": "assets/images/BP_015_請洗手.jpg",
+    "answer": "請洗手"
+  },
+  {
+    "id": "Q044",
+    "category": "BP",
+    "image": "assets/images/BP_014_請繫安全帶.jpg",
+    "answer": "請繫安全帶"
+  },
+  {
+    "id": "Q045",
+    "category": "BP",
+    "image": "assets/images/BP_002_靠左站立.jpg",
+    "answer": "靠左站立"
+  },
+  {
+    "id": "Q046",
+    "category": "BP",
+    "image": "assets/images/BP_013_等待.jpg",
+    "answer": "等待"
+  },
+  {
+    "id": "Q047",
+    "category": "BP",
+    "image": "assets/images/BP_016_佩戴口罩.jpg",
+    "answer": "佩戴口罩"
+  },
+  {
+    "id": "Q048",
+    "category": "BP",
+    "image": "assets/images/BP_019_保持社交距離.jpg",
+    "answer": "保持社交距離"
+  },
+  {
+    "id": "Q049",
+    "category": "BP",
+    "image": "assets/images/BP_018_手部消毒.jpg",
+    "answer": "手部消毒"
+  },
+  {
+    "id": "Q050",
+    "category": "BP",
+    "image": "assets/images/BP_023_隨手清狗便.jpg",
+    "answer": "隨手清狗便"
+  },
+  {
+    "id": "Q051",
+    "category": "BP",
+    "image": "assets/images/BP_005_請排隊.jpg",
+    "answer": "請排隊"
+  },
+  {
+    "id": "Q052",
+    "category": "CF",
+    "image": "assets/images/CF_005_ATM、提款機.jpg",
+    "answer": "ATM、提款機"
+  },
+  {
+    "id": "Q053",
+    "category": "CF",
+    "image": "assets/images/CF_001_餐廳.jpg",
+    "answer": "餐廳"
+  },
+  {
+    "id": "Q054",
+    "category": "CF",
+    "image": "assets/images/CF_013_電影院.jpg",
+    "answer": "電影院"
+  },
+  {
+    "id": "Q055",
+    "category": "CF",
+    "image": "assets/images/CF_007_結帳、收銀.jpg",
+    "answer": "結帳、收銀"
+  },
+  {
+    "id": "Q056",
+    "category": "GW",
+    "image": "assets/images/GW_002_塑膠類_2.jpg",
+    "answer": "塑膠類"
+  },
+  {
+    "id": "Q057",
+    "category": "GW",
+    "image": "assets/images/GW_005_紙容器類_2.jpg",
+    "answer": "紙容器類"
+  },
+  {
+    "id": "Q058",
+    "category": "GW",
+    "image": "assets/images/GW_001_廚餘_2.jpg",
+    "answer": "廚餘"
+  },
+  {
+    "id": "Q059",
+    "category": "GW",
+    "image": "assets/images/GW_007_塑膠袋_2.jpg",
+    "answer": "塑膠袋'"
+  },
+  {
+    "id": "Q060",
+    "category": "GW",
+    "image": "assets/images/GW_003_金屬類_2.jpg",
+    "answer": "金屬類"
+  },
+  {
+    "id": "Q061",
+    "category": "PF",
+    "image": "assets/images/PF_056_會面點.jpg",
+    "answer": "會面點"
+  },
+  {
+    "id": "Q062",
+    "category": "PF",
+    "image": "assets/images/PF_013_哺集乳室.jpg",
+    "answer": "哺集乳室"
+  },
+  {
+    "id": "Q063",
+    "category": "PF",
+    "image": "assets/images/PF_001_詢問處.jpg",
+    "answer": "詢問處"
+  },
+  {
+    "id": "Q064",
+    "category": "PF",
+    "image": "assets/images/PF_057_吸菸區.jpg",
+    "answer": "吸菸區"
+  },
+  {
+    "id": "Q065",
+    "category": "PF",
+    "image": "assets/images/PF_031_無線網路.jpg",
+    "answer": "無線網路"
+  },
+  {
+    "id": "Q066",
+    "category": "PF",
+    "image": "assets/images/PF_024_置物櫃.jpg",
+    "answer": "置物櫃"
+  },
+  {
+    "id": "Q067",
+    "category": "PF",
+    "image": "assets/images/PF_052_失物招領.jpg",
+    "answer": "失物招領"
+  },
+  {
+    "id": "Q068",
+    "category": "PF",
+    "image": "assets/images/PF_064_資源回收.jpg",
+    "answer": "資源回收"
+  },
+  {
+    "id": "Q069",
+    "category": "PF",
+    "image": "assets/images/PF_038_電梯.jpg",
+    "answer": "電梯"
+  },
+  {
+    "id": "Q070",
+    "category": "PF",
+    "image": "assets/images/PF_015_尿布台.jpg",
+    "answer": "尿布台"
+  },
+  {
+    "id": "Q071",
+    "category": "PF",
+    "image": "assets/images/PF_028_充電(站).jpg",
+    "answer": "充電(站)"
+  },
+  {
+    "id": "Q072",
+    "category": "PF",
+    "image": "assets/images/PF_006_廁所.jpg",
+    "answer": "廁所"
+  },
+  {
+    "id": "Q073",
+    "category": "SE",
+    "image": "assets/images/SE_006_緊急避難場所 (室內).jpg",
+    "answer": "緊急避難場所 (室內)"
+  },
+  {
+    "id": "Q074",
+    "category": "SE",
+    "image": "assets/images/SE_002_緊急出口 (右).jpg",
+    "answer": "緊急出口 (右)"
+  },
+  {
+    "id": "Q075",
+    "category": "SE",
+    "image": "assets/images/SE_014_消防逃生梯.jpg",
+    "answer": "消防逃生梯"
+  },
+  {
+    "id": "Q076",
+    "category": "SE",
+    "image": "assets/images/SE_008_車窗擊破器.jpg",
+    "answer": "車窗擊破器"
+  },
+  {
+    "id": "Q077",
+    "category": "SE",
+    "image": "assets/images/SE_003_海嘯避難場所 (戶外).jpg",
+    "answer": "海嘯避難場所 (戶外)"
+  },
+  {
+    "id": "Q078",
+    "category": "SE",
+    "image": "assets/images/SE_004_海嘯避難場所 (建物).jpg",
+    "answer": "海嘯避難場所 (建物)"
+  },
+  {
+    "id": "Q079",
+    "category": "SE",
+    "image": "assets/images/SE_007_防空避難場所.jpg",
+    "answer": "防空避難場所"
+  },
+  {
+    "id": "Q080",
+    "category": "SE",
+    "image": "assets/images/SE_011_列車緊急停止按紐.jpg",
+    "answer": "列車緊急停止按紐"
+  },
+  {
+    "id": "Q081",
+    "category": "SE",
+    "image": "assets/images/SE_009_緊急電話.jpg",
+    "answer": "緊急電話"
+  },
+  {
+    "id": "Q082",
+    "category": "SE",
+    "image": "assets/images/SE_012_滅火器.jpg",
+    "answer": "滅火器"
+  },
+  {
+    "id": "Q083",
+    "category": "SE",
+    "image": "assets/images/SE_005_緊急避難場所 (戶外).jpg",
+    "answer": "緊急避難場所 (戶外)"
+  },
+  {
+    "id": "Q084",
+    "category": "SF",
+    "image": "assets/images/SF_006_籃球場.jpg",
+    "answer": "籃球場"
+  },
+  {
+    "id": "Q085",
+    "category": "SF",
+    "image": "assets/images/SF_007_羽球場.jpg",
+    "answer": "羽球場"
+  },
+  {
+    "id": "Q086",
+    "category": "SF",
+    "image": "assets/images/SF_008_健身房.jpg",
+    "answer": "健身房"
+  },
+  {
+    "id": "Q087",
+    "category": "SF",
+    "image": "assets/images/SF_001_體育場.jpg",
+    "answer": "體育場"
+  },
+  {
+    "id": "Q088",
+    "category": "SF",
+    "image": "assets/images/SF_002_游泳池.jpg",
+    "answer": "游泳池"
+  },
+  {
+    "id": "Q089",
+    "category": "SP",
+    "image": "assets/images/SP_034_禁止狩獵.jpg",
+    "answer": "禁止狩獵"
+  },
+  {
+    "id": "Q090",
+    "category": "SP",
+    "image": "assets/images/SP_024_禁止亂丟垃圾.jpg",
+    "answer": "禁止亂丟垃圾"
+  },
+  {
+    "id": "Q091",
+    "category": "SP",
+    "image": "assets/images/SP_038_禁止攜帶大型物件.jpg",
+    "answer": "禁止攜帶大型物件"
+  },
+  {
+    "id": "Q092",
+    "category": "SP",
+    "image": "assets/images/SP_003_嚴禁明火.jpg",
+    "answer": "嚴禁明火"
+  },
+  {
+    "id": "Q093",
+    "category": "SP",
+    "image": "assets/images/SP_016_禁止兒童進入.jpg",
+    "answer": "禁止兒童進入"
+  },
+  {
+    "id": "Q094",
+    "category": "SP",
+    "image": "assets/images/SP_022_禁止停車.jpg",
+    "answer": "禁止停車"
+  },
+  {
+    "id": "Q095",
+    "category": "SP",
+    "image": "assets/images/SP_014_禁止使用閃光燈.jpg",
+    "answer": "禁止使用閃光燈"
+  },
+  {
+    "id": "Q096",
+    "category": "SP",
+    "image": "assets/images/SP_006_禁止觸摸.jpg",
+    "answer": "禁止觸摸"
+  },
+  {
+    "id": "Q097",
+    "category": "SP",
+    "image": "assets/images/SP_017_禁止燃放煙火.jpg",
+    "answer": "禁止燃放煙火"
+  },
+  {
+    "id": "Q098",
+    "category": "SP",
+    "image": "assets/images/SP_036_禁止餵食.jpg",
+    "answer": "禁止餵食"
+  },
+  {
+    "id": "Q099",
+    "category": "SP",
+    "image": "assets/images/SP_033_禁止放生.jpg",
+    "answer": "禁止放生"
+  },
+  {
+    "id": "Q100",
+    "category": "SP",
+    "image": "assets/images/SP_002_禁止吸菸.jpg",
+    "answer": "禁止吸菸"
+  },
+  {
+    "id": "Q101",
+    "category": "SP",
+    "image": "assets/images/SP_010_禁止飲食.jpg",
+    "answer": "禁止飲食"
+  },
+  {
+    "id": "Q102",
+    "category": "SP",
+    "image": "assets/images/SP_023_禁止停放腳踏車.jpg",
+    "answer": "禁止停放腳踏車"
+  },
+  {
+    "id": "Q103",
+    "category": "SP",
+    "image": "assets/images/SP_005_禁止飲用.jpg",
+    "answer": "禁止飲用"
+  },
+  {
+    "id": "Q104",
+    "category": "SP",
+    "image": "assets/images/SP_035_禁止釣魚.jpg",
+    "answer": "禁止釣魚"
+  },
+  {
+    "id": "Q105",
+    "category": "SP",
+    "image": "assets/images/SP_037_禁止使用嬰兒推車.jpg",
+    "answer": "禁止使用嬰兒推車"
+  },
+  {
+    "id": "Q106",
+    "category": "SP",
+    "image": "assets/images/SP_031_禁止使用無人機.jpg",
+    "answer": "禁止使用無人機"
+  },
+  {
+    "id": "Q107",
+    "category": "SP",
+    "image": "assets/images/SP_011_火警時請勿搭乘電梯.jpg",
+    "answer": "火警時請勿搭乘電梯"
+  },
+  {
+    "id": "Q108",
+    "category": "SP",
+    "image": "assets/images/SP_004_禁止進入.jpg",
+    "answer": "禁止進入"
+  },
+  {
+    "id": "Q109",
+    "category": "SP",
+    "image": "assets/images/SP_013_禁止拍照.jpg",
+    "answer": "禁止拍照"
+  },
+  {
+    "id": "Q110",
+    "category": "SP",
+    "image": "assets/images/SP_027_禁止塗鴉.jpg",
+    "answer": "禁止塗鴉"
+  },
+  {
+    "id": "Q111",
+    "category": "SW",
+    "image": "assets/images/SW_008_小心觸電.jpg",
+    "answer": "小心觸電"
+  },
+  {
+    "id": "Q112",
+    "category": "SW",
+    "image": "assets/images/SW_005_小心地滑.jpg",
+    "answer": "小心地滑"
+  },
+  {
+    "id": "Q113",
+    "category": "SW",
+    "image": "assets/images/SW_015_小心有蛇.jpg",
+    "answer": "小心有蛇"
+  },
+  {
+    "id": "Q114",
+    "category": "SW",
+    "image": "assets/images/SW_011_小心夾手.jpg",
+    "answer": "小心夾手"
+  },
+  {
+    "id": "Q115",
+    "category": "SW",
+    "image": "assets/images/SW_014_小心有蜂.jpg",
+    "answer": "小心有蜂"
+  },
+  {
+    "id": "Q116",
+    "category": "SW",
+    "image": "assets/images/SW_002_小心障礙物.jpg",
+    "answer": "小心障礙物"
+  },
+  {
+    "id": "Q117",
+    "category": "SW",
+    "image": "assets/images/SW_012_小心夾腳.jpg",
+    "answer": "小心夾腳"
+  },
+  {
+    "id": "Q118",
+    "category": "SW",
+    "image": "assets/images/SW_016_小心落果.jpg",
+    "answer": "小心落果"
+  },
+  {
+    "id": "Q119",
+    "category": "SW",
+    "image": "assets/images/SW_009_海嘯危險區域.jpg",
+    "answer": "海嘯危險區域"
+  },
+  {
+    "id": "Q120",
+    "category": "SW",
+    "image": "assets/images/SW_003_小心下降台階.jpg",
+    "answer": "小心下降台階"
+  },
+  {
+    "id": "Q121",
+    "category": "SW",
+    "image": "assets/images/SW_006_小心墜落.jpg",
+    "answer": "小心墜落"
+  },
+  {
+    "id": "Q122",
+    "category": "TF",
+    "image": "assets/images/TF_023_出境.jpg",
+    "answer": "出境"
+  },
+  {
+    "id": "Q123",
+    "category": "TF",
+    "image": "assets/images/TF_024_抵達.jpg",
+    "answer": "抵達"
+  },
+  {
+    "id": "Q124",
+    "category": "TF",
+    "image": "assets/images/TF_019_充電樁.jpg",
+    "answer": "充電樁"
+  },
+  {
+    "id": "Q125",
+    "category": "TF",
+    "image": "assets/images/TF_015_停車場.jpg",
+    "answer": "停車場"
+  },
+  {
+    "id": "Q126",
+    "category": "TF",
+    "image": "assets/images/TF_021_機車換電站.jpg",
+    "answer": "機車換電站"
+  },
+  {
+    "id": "Q127",
+    "category": "TF",
+    "image": "assets/images/TF_014_腳踏車租借處.jpg",
+    "answer": "腳踏車租借處"
+  },
+  {
+    "id": "Q128",
+    "category": "TF",
+    "image": "assets/images/TF_017_自動繳費機.jpg",
+    "answer": "自動繳費機"
+  },
+  {
+    "id": "Q129",
+    "category": "TF",
+    "image": "assets/images/TF_022_電動汽車充電站.jpg",
+    "answer": "電動汽車充電站"
+  },
+  {
+    "id": "Q130",
+    "category": "TT",
+    "image": "assets/images/TT_013_溫泉.jpg",
+    "answer": "溫泉"
+  },
+  {
+    "id": "Q131",
+    "category": "TT",
+    "image": "assets/images/TT_020_清真寺.jpg",
+    "answer": "清真寺"
+  },
+  {
+    "id": "Q132",
+    "category": "TT",
+    "image": "assets/images/TT_019_教堂.jpg",
+    "answer": "教堂"
+  },
+  {
+    "id": "Q133",
+    "category": "TT",
+    "image": "assets/images/TT_014_語音導覽.jpg",
+    "answer": "語音導覽"
+  },
+  {
+    "id": "Q134",
+    "category": "TT",
+    "image": "assets/images/TT_009_健行步道.jpg",
+    "answer": "健行步道"
+  },
+  {
+    "id": "Q135",
+    "category": "TT",
+    "image": "assets/images/TT_010_營火處.jpg",
+    "answer": "營火處"
+  },
+  {
+    "id": "Q136",
+    "category": "TT",
+    "image": "assets/images/TT_004_野餐區.jpg",
+    "answer": "野餐區"
+  },
+  {
+    "id": "Q137",
+    "category": "TT",
+    "image": "assets/images/TT_018_廟宇.jpg",
+    "answer": "廟宇"
+  },
+  {
+    "id": "Q138",
+    "category": "TT",
+    "image": "assets/images/TT_017_古蹟.jpg",
+    "answer": "古蹟"
+  },
+  {
+    "id": "Q139",
+    "category": "TT",
+    "image": "assets/images/TT_011_鳥類棲地.jpg",
+    "answer": "鳥類棲地"
+  },
+  {
+    "id": "Q140",
+    "category": "TT",
+    "image": "assets/images/TT_015_海灘.jpg",
+    "answer": "海灘"
+  },
+  {
+    "id": "Q141",
+    "category": "TT",
+    "image": "assets/images/TT_016_天文館.jpg",
+    "answer": "天文館"
+  },
+  {
+    "id": "Q142",
+    "category": "GW",
+    "image": "assets/images/GW_017_紙杯_2.jpg",
+    "answer": "紙杯"
+  },
+  {
+    "id": "Q143",
+    "category": "GW",
+    "image": "assets/images/GW_020_杯蓋_2.jpg",
+    "answer": "杯蓋"
+  },
+  {
+    "id": "Q144",
+    "category": "GW",
+    "image": "assets/images/GW_009_電子票卷.jpg",
+    "answer": "電子票卷"
+  },
+  {
+    "id": "Q145",
+    "category": "GW",
+    "image": "assets/images/GW_021_寶特瓶_2.jpg",
+    "answer": "寶特瓶"
+  },
+  {
+    "id": "Q146",
+    "category": "GW",
+    "image": "assets/images/GW_004_玻璃類_2.jpg",
+    "answer": "玻璃類"
+  },
+  {
+    "id": "Q147",
+    "category": "SP",
+    "image": "assets/images/SP_039_請勿倚靠側板",
+    "answer": "請勿倚靠側板"
+  },
+  {
+    "id": "Q148",
+    "category": "SP",
+    "image": "assets/images/SP_029_禁止踐踏草皮",
+    "answer": "禁止踐踏草皮"
+  },
+  {
+    "id": "Q149",
+    "category": "SP",
+    "image": "assets/images/SP_026_禁止攀折花木",
+    "answer": "禁止攀折花木"
+  },
+  {
+    "id": "Q150",
+    "category": "SP",
+    "image": "assets/images/SP_019_禁止跨越",
+    "answer": "禁止跨越"
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>答題畫面 - Quizz App V1.3</title>
+  <style>
+    body { font-family: sans-serif; background-color: #fafafa; padding: 20px; text-align: center; }
+    #quiz-container img { width: 300px; max-height: 300px; margin: 10px auto; display: block; }
+    #quiz-container button { margin: 10px; padding: 12px 20px; font-size: 16px; cursor: pointer; }
+    .option-button { display: block; margin: 5px auto; width: 300px; }
+  </style>
+</head>
+<body>
+  <h1>Quizz 挑戰中</h1>
+  <div id="quiz-container">
+    <!-- 題目由 script.js 動態載入 -->
+  </div>
+
+  <div id="summary-container" style="display:none">
+    <h2>答題結算</h2>
+    <p id="score-display"></p>
+    <div id="retry-logic"></div>
+    <button id="exit-btn" onclick="submitScoreAndLeave()">登錄成績並離開</button>
+  </div>
+
+  <script type="module">
+    import { saveScore } from '/static/js/firestore.js';
+
+    window.submitScoreAndLeave = async function() {
+      const uid = sessionStorage.getItem("uid") || "unknown";
+      const name = sessionStorage.getItem("name") || "未知玩家";
+      const avatar = sessionStorage.getItem("avatar") || "avatar_001.svg";
+      const score = parseInt(sessionStorage.getItem("last_score") || "0");
+      const retry = parseInt(sessionStorage.getItem("retry_count") || "1");
+
+      await saveScore(score, uid, name, avatar, retry, 0);
+      window.location.href = "leaderboard.html";
+    };
+  </script>
+  <script src="/static/js/script.js" type="module"></script>
+</body>
+</html>

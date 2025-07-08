@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>排行榜 - Quizz App V1.3</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>排行榜</h1>
+  <table id="leaderboard">
+    <thead>
+      <tr>
+        <th>頭像</th>
+        <th>玩家名稱</th>
+        <th>分數</th>
+        <th>挑戰次數</th>
+        <th>答題時間 (秒)</th>
+        <th>記錄時間</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getFirestore, collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { firebaseConfig } from "./js/firebase-config.js";
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    async function fetchScores() {
+      const scoresRef = collection(db, "scores");
+      const q = query(scoresRef, orderBy("score", "desc"), orderBy("elapsedTime", "asc"));
+      const querySnapshot = await getDocs(q);
+      const tbody = document.querySelector("#leaderboard tbody");
+
+      querySnapshot.forEach(doc => {
+        const data = doc.data();
+        const avatar = data.avatar || "avatar_001.svg";
+        const name = data.name || "未知玩家";
+        const score = data.score || 0;
+        const retry = data.challengeRound || 1;
+        const time = data.elapsedTime || 0;
+        const timestamp = data.createdAt?.toDate?.() || new Date();
+
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td><img src="avatars/${avatar}" width="40" height="40" /></td>
+          <td>${name}</td>
+          <td>${score}</td>
+          <td>${retry}</td>
+          <td>${time}</td>
+          <td>${timestamp.toLocaleString()}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    fetchScores();
+  </script>
+</body>
+</html>

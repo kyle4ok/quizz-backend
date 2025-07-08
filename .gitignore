@@ -1,0 +1,26 @@
+# .gitignore for Quizz_App_V1.3
+
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+.venv/
+env/
+
+# Firebase 機密金鑰
+firebase_admin_sdk.json
+
+# dotenv 管理檔
+.env
+.env.*
+
+# 開發用暫存檔
+structure*.txt
+*.zip
+*.log
+
+# VSCode / JetBrains
+.vscode/
+.idea/
