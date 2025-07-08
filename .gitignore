@@ -24,3 +24,6 @@ structure*.txt
 # VSCode / JetBrains
 .vscode/
 .idea/
+
+# 壓縮備份檔案
+*.zip
